@@ -1,0 +1,9 @@
+.divider{
+    width:20px;
+    height:auto;
+    display:inline-block;
+}
+
+.img1 {
+    background-color : blue;
+}
