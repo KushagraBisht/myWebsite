@@ -8,7 +8,7 @@ import { Router } from '@angular/router';
 export class NavbarComponent implements OnInit {
 
   constructor(private router : Router) { }
-
+  pdfSrc="https://docs.google.com/document/d/1TMYcu90iuk8G2seiSquPjMu9E7xuO6Y1gM08qtxNpGo/edit?usp=sharing";
   ngOnInit(): void {
   }
   aboutMe(){
@@ -25,6 +25,5 @@ export class NavbarComponent implements OnInit {
 
             resume(){
                 console.log("Download");
-                
                 }
 }
